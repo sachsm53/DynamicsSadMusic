@@ -73,8 +73,7 @@ The three normalized, .mp3 files used during fMRI. For this publication, only th
 Input arguments include specific subjects (--subjects ['sub-01','sub-02']) or you can run all subjects using --all. Additionally, you can turn off any steps (see beginning of script) 
 
 	```
-	./preprocessing.py —all
-
+	Ex: ./preprocessing.py —all
 	```
 
 3) `trim_param.py` is used to additionally cut more time points from the BOLD data and from the ratings data (set to 20 for this paper)
