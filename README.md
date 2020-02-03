@@ -33,7 +33,7 @@ Other files/scripts that are called:
 
 ### Stimuli
 
-The three normalized, .mp3 files used during fMRI. For this publication, only the piece entitled "snl_l.norm" which is entitled "Discovery of the Camps" from the *Band of Brothers* soundtrack
+The three normalized, .mp3 files used during fMRI. For this publication, only the piece entitled "sadln_norm.mp3" which is entitled "Discovery of the Camps" from the *Band of Brothers* soundtrack
 
 ### Preprocessing Scripts and steps (in folder fmri_preprocessing)
 
