@@ -7,12 +7,12 @@ All scripts used to analyze and create images for data presented in Sachs, M. E.
 
 Programs you will need downloaded: 
 
-FSL\s
-dcm2bids\s
-ICA-AROMA\s
-ISCToolbox\s
-MIRToolbox\s
-AFNI\s
+*FSL
+*dcm2bids
+*ICA-AROMA
+*ISCToolbox
+*MIRToolbox
+*AFNI
 
 The following python packages: 
 
