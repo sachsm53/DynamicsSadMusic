@@ -72,9 +72,9 @@ The three normalized, .mp3 files used during fMRI. For this publication, only th
 
 Input arguments include specific subjects (--subjects ['sub-01','sub-02']) or you can run all subjects using --all. Additionally, you can turn off any steps (see beginning of script) 
 
-	```
-	Ex: ./preprocessing.py —all
-	```
+```
+./preprocessing.py —all
+```
 
 3) `trim_param.py` is used to additionally cut more time points from the BOLD data and from the ratings data (set to 20 for this paper)
 
@@ -103,7 +103,7 @@ Input arguments include specific subjects (--subjects ['sub-01','sub-02']) or yo
 1) `pairwise_cor_afni.py`: calculates voxelwise pairwise correlations of the entire BOLD signal using AFNI function 3dTcorrelate; outputs are a text file with the order of pairwise correlations; output is AFNI BRIC file
 
 	```
-	EX: ./pairwise_cor_afni.py --aroma --stand
+	./pairwise_cor_afni.py --aroma --stand
 	```
 
 2) 3dLME_2grp.R: R script for using AFNI code to conduct linear mixed-effects (LME) model with a crossed random-effects formulation to identify voxels that had higher ISC values within the high Fantasy group as compared to the low Fantasy group as well as higher ISC values within rather than across groups.
