@@ -1,4 +1,4 @@
-# Scripts and Analysis Steps for Sachs et al. 2019. Neuroimage
+# Scripts and Analysis Steps for Dynamic intersubject synchronization in response to sad music
 
 All scripts used to analyze and create images for data presented in Sachs, M. E., Habibi, A., Damasio, A., & Kaplan, J. T. (2019). Dynamic intersubject neural synchronization reflects affective responses to sad music. NeuroImage, 116512.
 
@@ -7,18 +7,18 @@ All scripts used to analyze and create images for data presented in Sachs, M. E.
 
 Programs you will need downloaded: 
 
-FSL
-dcm2bids
-ICA-AROMA
-ISCToolbox
-MIRToolbox
-AFNI
+FSL\s
+dcm2bids\s
+ICA-AROMA\s
+ISCToolbox\s
+MIRToolbox\s
+AFNI\s
 
 The following python packages: 
 
-brainiak
-nibabel
-nipype
+brainiak\s
+nibabel\s
+nipype\s
 
 
 Other files/scripts that are called: 
