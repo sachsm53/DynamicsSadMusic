@@ -1,4 +1,4 @@
-# Scripts and Analysis Steps for Dynamic intersubject synchronization in response to sad music
+# Scripts and analysis steps for *Dynamic intersubject synchronization in response to sad music*
 
 All scripts used to analyze and create images for data presented in Sachs, M. E., Habibi, A., Damasio, A., & Kaplan, J. T. (2019). Dynamic intersubject neural synchronization reflects affective responses to sad music. NeuroImage, 116512.
 
@@ -91,12 +91,12 @@ Input arguments include specific subjects (--subjects ['sub-01','sub-02']) or yo
 
 ### Behavioral/survey measures sript (in folder isc)
 
-`survey_score.py`: script for scoring the IRI from raw Qualtrics survey
+  `survey_score.py`: script for scoring the IRI from raw Qualtrics survey
 
 
 ### Voxelwise regression with affective ratings scripts (in voxelwise_regress)
 
-`fsl_glm_statsmodel.py`: script for setting up and running first-level, subjectwise stats models for voxelwise regression with ratings (uses generic .fsf files)  
+  `fsl_glm_statsmodel.py`: script for setting up and running first-level, subjectwise stats models for voxelwise regression with ratings (uses generic .fsf files)  
 
 
 ### Whole-brain ISC differences between high and low empathy groups scripts (in folder isc)
@@ -133,7 +133,7 @@ Input arguments include specific subjects (--subjects ['sub-01','sub-02']) or yo
 
 ### Continuous measure of musical features scripts (in mus_features folder)
 
-`mus_features.m`: matlab script for extracting brightness and RMS (using MIRtoolbox code) and normalizing it and cutting it for use as continuous regressor of neuroimaging data
+  `mus_features.m`: matlab script for extracting brightness and RMS (using MIRtoolbox code) and normalizing it and cutting it for use as continuous regressor of neuroimaging data
 
 ## Authors
 
