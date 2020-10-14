@@ -2,6 +2,9 @@
 
 All scripts used to analyze and create images for data presented in Sachs, M. E., Habibi, A., Damasio, A., & Kaplan, J. T. (2019). Dynamic intersubject neural synchronization reflects affective responses to sad music. NeuroImage, 116512.
 
+Data is located and hosted on OpenNeuro:
+https://openneuro.org/datasets/ds003085/versions/1.0.0
+
 
 ### Prerequisites
 
